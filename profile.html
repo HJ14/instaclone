@@ -3,41 +3,84 @@
 	<head>
 		<title>Instaclone | Login</title>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="styles/root.css">
 	</head>
 	<body>
+		<nav class="Navigation">
+            <div class="Navigation__Column">
+                <a href="feed.html" class="Navigation__Logo-Container">
+                    <img src="images/Navlogo.jpg" class="Navigation__Logo" />
+                </a>
+            </div>
+            <div class="Navigation__Column  Navigation__Column--Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input 
+                    type="text"
+                    name="search"
+                    placeholder="Search" 
+                />
+            </div>
+            <div class="Navigation__Column Navigation__Column--Icons">
+                <a href="explore.html" class="Navigation__Icon">
+                    <i class="fa fa-compass fa-2x"></i>
+                </a>
+                <a href="#" class="Navigation__Icon">
+                    <i class="fa fa-heart-o fa-2x"></i>
+                </a>
+                <a href="profile.html" class="Navigation__Icon">
+                    <i class="fa fa-user fa-2x"></i>
+                </a>
+            </div>
+        </nav>
 		<main class="Profile">
 			<header class="Profile__Header">
 				<div class="Profile__Header-Left">
-					<img class="Profile__avatar" src="avatar.jpg" />
+					<img class="Profile__avatar" src="images/avatar.jpg" />
 				</div>
 				<div class="Profile__Header-Right">
 					<div class="Profile__Name">
 						<H4>kimkardashian</H4>
-						<button class="Profile__Button">Edit Profile</button>
+						<button class="Profile__Button"><a href="edit-profile.html" class=Profile__Button-editprofile>Edit Profile</a></button>
 						<i class= "fa fa-cog"></i>
 					</div>
 					<div class="Profile_Numbers">
-						<span class="Profile__number-text">
+						<ul>
+							<li class="Profile__number-text">
 							<span class="Profile__number">312</span>
-						 posts
-						</span>
-						<span class="Profile__number-text">
+						 	posts
+							</li>
+							<li class="Profile__number-text">
 							<span class="Profile__number">4,382</span>
-						followers
-						</span>
-						<span class="Profile__number-text">
+						 	followers
+							</li>
+							<li class="Profile__number-text">
 							<span class="Profile__number">47</span>
-						following
-						</span>
+						 	following
+							</li>
+						</ul>
 					</div>
 					<div class="Profile__Descriptions">
 					<span class="Profile__Full-Name">Kim Kardashian</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate animi deleniti perferendis, ipsum sapiente. Totam voluptas ad architecto dolor, est, ea error perspiciatis amet unde iste, deserunt qui doloribus fugiat.</p>
+					<p class="Profile_bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate animi deleniti perferendis, ipsum sapiente. Totam voluptas ad architecto dolor, est, ea error perspiciatis amet unde iste, deserunt qui doloribus fugiat.</p>
 					</div>			
 				</div>
 			</header>
-			<section>
-
+			<section class="Pictures">
+				<div class="Pictures__Picture-Container">
+					<a href="image-detail.html" class="Pictures__Link">
+						<img src="feedPhoto.jpg" class="Pictures__Picture">
+						<div class="Pictures__Overlay">
+							<div class="Pictures__Counter">
+								<i class="fa fa-heart"></i>
+								<span class="Pictures__Number">654</span>
+							</div>
+							<div class="Pictures__Counter">
+								<i class="fa fa-comment"></i>
+								<span class="Pictures__Number">65</span>
+							</div>
+						</div>
+					</a>
+				</div>
 			</section>
 		</main>
 		<footer>

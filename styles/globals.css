@@ -1,0 +1,28 @@
+body{
+    background-color:#fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.u-relative-container{
+    position: relative;
+}
+
+.u-fat-text{
+    font-weight: 600;
+}
+
+.u-content-box{
+    background-color: white;
+    max-width: 800px;
+    width: 60%;
+    box-sizing: border-box;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+}

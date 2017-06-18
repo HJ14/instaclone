@@ -1,0 +1,43 @@
+.Explore{
+    margin:60px auto;
+    max-width: 600px;
+}
+
+.Explore__Header{
+    padding:15px 0px 10px 15px;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.Explore__Tilte{
+    text-transform: uppercase;
+    color:#999;
+}
+
+.Explore__User{
+    padding:5px 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Explore__User-Left{
+    display: flex;
+    align-items:center;
+}
+
+.Explore__Username{
+	padding-left: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Explore__Full-name{
+	padding-left: 10px;
+}
+
+.Explore__Avatar{
+	margin-top:5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}

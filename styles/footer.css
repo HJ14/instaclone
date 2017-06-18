@@ -1,0 +1,21 @@
+.Footer{
+	font-size: 12px;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	width: 90%;
+	max-width: 900px;
+	text-transform: uppercase;
+}
+.Navigation__List{
+	display: flex;
+}
+.Navigation__Link{
+	margin-right: 15px;
+	color: #003569;
+}
+.Footer__Copyright{
+	color:#999;
+}

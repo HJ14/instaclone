@@ -1,0 +1,112 @@
+.ImageDetail{
+	margin:60px auto;
+	display: flex;
+    align-items: center;
+	width: 90%;
+	max-width: 900px;
+	border: 0;
+}
+
+.ImageDetail__Column-Left{
+	width: 75%;
+	height: 100%;
+}
+
+.ImageDetail__Photo-Container{
+	height: 100%;
+}
+
+.ImageDetail__feedphoto{
+	min-height: 100%;
+    width: 100%;
+}
+
+.ImageDetail__Column-Right{
+	padding: 0px 20px;
+}
+
+.RightColumn__Header{
+	padding: 15px 0px;
+	display: flex;
+	align-items: center;
+}
+
+.RightColumn__Avatar-Container{
+	width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+.RightColumn__Avatar{
+	max-width: 100%;
+}
+
+.RightColumn__Username{
+	display: block;
+	margin-bottom: 3px;
+}
+
+.RightColumn__Description{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.RightColumn__Comments{
+	padding-top: 30px;
+	height: 200px;
+	overflow: scroll;
+	margin-bottom: 20px;
+	
+}
+
+.RightColumn_Comment{
+	margin-bottom: 10px;
+}
+
+.RightColumn__Icons{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.RightColumn__Icon:first-child{
+	margin-right: 10px;
+}
+
+.RightColumn__LikeCounts{
+	display: block;
+	margin-bottom: 15px;
+}
+
+.RightColumn__Date{
+	text-transform: uppercase;
+    color:#999;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 20px;
+ }
+
+.RightColumn__Add-Comment{
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    align-items:center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.RightColumn__Add-Commnet i {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+
+.RightColumn__textarea{
+	border:0;
+    resize: none;
+    height: 30px;
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
