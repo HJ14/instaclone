@@ -4,7 +4,7 @@
     width: 95%;
 }
 
-.Profile .Header{
+.Header{
     display: flex;
     justify-content:space-between;
     margin-bottom: 50px;
@@ -30,6 +30,16 @@
 
 .Header__Avatar{
     min-width: 105%;
+    animation: 5s linear infinite rotate-icon
+}
+
+@keyframes rotate-icon {
+    from {
+        transform:rotate(0turn)
+    }
+    to{
+        transform:rotate(1turn);
+    }
 }
 
 .Header__Section{
@@ -40,30 +50,28 @@
     margin-bottom: 30px;
 }
 
+.Header__Section:first-child{
+    width: 70%;
+}
+
 .Header__Section i{
     cursor: pointer;
+    transition:all .5s ease-in;
+}
+
+.Header__Section i:hover{
+    transform:rotate(10turn);
 }
 
 .Header__Title{
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 30px;
 }
 
 .Header__Button{
     padding:5px 20px;
     border-radius: 3px;
     border:solid 1px #dbdbdb;
-    transition:all .5s ease-in;
 }
-
-.Header__Button:hover{
-    color:white;
-    background-color:#3897F0;
-    border:0;
-    transform:rotate(1turn);
-}
-
-
 
 .Header__Numbers{
     display: flex;
