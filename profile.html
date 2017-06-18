@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Instaclone | Login</title>
+		<title>Instaclone | Profile</title>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="styles/root.css">
 	</head>
@@ -9,7 +9,7 @@
 		<nav class="Navigation">
             <div class="Navigation__Column">
                 <a href="feed.html" class="Navigation__Logo-Container">
-                    <img src="images/Navlogo.jpg" class="Navigation__Logo" />
+                    <img src="images/navlogo.jpg" class="Navigation__Logo" />
                 </a>
             </div>
             <div class="Navigation__Column  Navigation__Column--Search">
@@ -33,28 +33,28 @@
             </div>
         </nav>
 		<main class="Profile">
-			<header class="Profile__Header">
-				<div class="Profile__Header-Left">
-					<img class="Profile__avatar" src="images/avatar.jpg" />
+			<header class="Header">
+				<div class="Header__Column">
+					<img class="Header__Avatar" src="images/avatar.jpg" />
 				</div>
-				<div class="Profile__Header-Right">
-					<div class="Profile__Name">
-						<H4>kimkardashian</H4>
-						<button class="Profile__Button"><a href="edit-profile.html" class=Profile__Button-editprofile>Edit Profile</a></button>
-						<i class= "fa fa-cog"></i>
+				<div class="Header__Column">
+					<div class="Header__Section">
+						<H4 class="Header__Title u-fat-text"kimkardashian</H4>
+						<button class="Profile__Button"><a href="edit-profile.html" class="Profile__Button-editprofile u-fat-text">Edit Profile</a></button>
+						<i class= "fa fa-cog fa-2x"></i>
 					</div>
-					<div class="Profile_Numbers">
-						<ul>
-							<li class="Profile__number-text">
-							<span class="Profile__number">312</span>
+					<div class="Header__Section">
+						<ul class="Header__Numbers">
+							<li class="Header__Numbers-Item">
+							<span class="Header__Number u-fat-text">312</span>
 						 	posts
 							</li>
-							<li class="Profile__number-text">
-							<span class="Profile__number">4,382</span>
+							<li class="Header__Numbers-Item">
+							<span class="Header__Number u-fat-text">4,382</span>
 						 	followers
 							</li>
-							<li class="Profile__number-text">
-							<span class="Profile__number">47</span>
+							<li class="Header__Numbers-Item">
+							<span class="Header__Number u-fat-text">47</span>
 						 	following
 							</li>
 						</ul>
@@ -68,14 +68,14 @@
 			<section class="Pictures">
 				<div class="Pictures__Picture-Container">
 					<a href="image-detail.html" class="Pictures__Link">
-						<img src="feedPhoto.jpg" class="Pictures__Picture">
+						<img src="feedphoto.jpg" class="Pictures__Picture">
 						<div class="Pictures__Overlay">
 							<div class="Pictures__Counter">
-								<i class="fa fa-heart"></i>
+								<i class="fa fa-heart fa-lg"></i>
 								<span class="Pictures__Number">654</span>
 							</div>
 							<div class="Pictures__Counter">
-								<i class="fa fa-comment"></i>
+								<i class="fa fa-comment fa-lg"></i>
 								<span class="Pictures__Number">65</span>
 							</div>
 						</div>
@@ -84,7 +84,7 @@
 			</section>
 		</main>
 		<footer>
-			<nav class="Navigation">
+			<nav class="Footer">
 				<ul class="Navigation__List">
 					<li class="Navigation__Item">
 						<a href="#" class="Navigation__Link">
