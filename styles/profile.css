@@ -131,3 +131,44 @@
 .Pictures__Counter:first-child{
     margin-right: 10px;
 }
+
+.SettingsOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+
+.SettingsOverlay i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    top: 10px;
+}
+
+.OverlayContainer{
+    width: 30%;
+    height: 18%;
+    text-align: center;
+}
+
+.OverlayContainer a{
+    display: block;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.OverlayContainer a:first-child{
+    border-bottom: 1px solid lightgrey;
+}
+
+.OverlayContainer a:hover{
+    background-color: lightgrey;
+}

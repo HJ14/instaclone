@@ -86,8 +86,10 @@
     font-size: 14px;
 }
 
-
-
 .Photo__Input:focus{
     outline: none;
+}
+
+.Heart-Red{
+    color: red;
 }
