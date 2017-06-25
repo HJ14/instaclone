@@ -45,3 +45,7 @@
 .Navigation__Icon{
     margin-left:10px;
 }
+
+.MobileMenuTrigger{
+    display: none;
+}

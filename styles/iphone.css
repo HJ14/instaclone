@@ -1,0 +1,40 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 414px) {
+    .Navigation{
+        justify-content:center;
+        justify-content:space-between;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+        z-index:999;
+        padding:0;
+    }
+    .Navigation__Column--Search,
+    .Navigation__Column--Icons{
+        display: none;
+    }
+    .Feed{
+        padding-top: 50px 0;
+    }
+    .Photo u-box-with-border{
+        width: 100%;
+    }
+    .u-content-box{
+        width: 100%;
+        max-width: none;
+        border:0;
+    }
+ 
+    .Footer{
+        display: none;
+    }
+
+    .MobileMenuTrigger{
+        display: block;
+        color:rgba(0, 0, 0, 0.4);
+        margin-right: 10px
+    }
+    
+}
+

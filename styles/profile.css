@@ -1,0 +1,174 @@
+.Profile{
+    margin:60px auto;
+    max-width: 1000px;
+    width: 95%;
+}
+
+.Header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.Header__Column:first-child{
+    width:30%;
+    display: flex;
+    justify-content:center;
+}
+
+.Header__Column:last-child{
+    width: 70%;
+}
+
+.Header__Avatar-Container{
+    width: 152px;
+    height: 152px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.Header__Avatar{
+    min-width: 105%;
+    animation: 5s linear infinite rotate-icon
+}
+
+@keyframes rotate-icon {
+    from {
+        transform:rotate(0turn)
+    }
+    to{
+        transform:rotate(1turn);
+    }
+}
+
+.Header__Section{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.Header__Section:first-child{
+    width: 70%;
+}
+
+.Header__Section i{
+    cursor: pointer;
+    transition:all .5s ease-in;
+}
+
+.Header__Section i:hover{
+    transform:rotate(10turn);
+}
+
+.Header__Title{
+    font-size: 30px;
+}
+
+.Header__Button{
+    padding:5px 20px;
+    border-radius: 3px;
+    border:solid 1px #dbdbdb;
+}
+
+.Header__Numbers{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+
+}
+
+.Header__Section:last-child{
+    display: block;
+    width: 90%;
+}
+
+.Header__Link{
+    color:#003569;
+}
+
+.Header__Section:last-child * {
+    display: inline;
+}
+
+.Pictures__Picture-Container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.Pictures__Link{
+    width: 293px;
+    height: 293px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.Pictures__Picture{
+    max-width: 100%;
+}
+
+.Pictures__Overlay{
+    color:white;
+    font-weight: 600;
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.Pictures__Link:hover .Pictures__Overlay{
+    opacity: 1;
+}
+
+.Pictures__Counter:first-child{
+    margin-right: 10px;
+}
+
+.SettingsOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+
+.SettingsOverlay i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    top: 10px;
+}
+
+.OverlayContainer{
+    width: 30%;
+    height: 18%;
+    text-align: center;
+}
+
+.OverlayContainer a{
+    display: block;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.OverlayContainer a:first-child{
+    border-bottom: 1px solid lightgrey;
+}
+
+.OverlayContainer a:hover{
+    background-color: lightgrey;
+}
